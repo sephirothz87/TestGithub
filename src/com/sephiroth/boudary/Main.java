@@ -12,6 +12,8 @@ public class Main {
 		
 		//在服务端输入注释确认提交
 		
+		//在服务端再次修改提交测试，2015-4-15 12:11:31，UTF-8编码
+		
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		try {
 			System.out.print("输入第一个字符：");
