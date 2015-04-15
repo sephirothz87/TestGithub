@@ -8,7 +8,8 @@ public class Main {
 	public static void main(String args[]){
 		System.out.println("hello,world.");
 		
-
+		//输入注释确认提交
+		
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		try {
 			System.out.print("输入第一个字符：");
