@@ -8,16 +8,18 @@ public class Main {
 	public static void main(String args[]){
 		System.out.println("hello,world.");
 		
-		//输入注释确认提交
+		//杈撳叆娉ㄩ噴纭鎻愪氦
+		
+		//鍦ㄦ湇鍔＄杈撳叆娉ㄩ噴纭鎻愪氦
 		
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		try {
-			System.out.print("输入第一个字符：");
+			System.out.print("杈撳叆绗竴涓瓧绗︼細");
 			String str1=br.readLine();
-			System.out.print("输入第二个字符：");
+			System.out.print("杈撳叆绗簩涓瓧绗︼細");
 			String str2=br.readLine();
 
-			System.out.println("第一个字符："+str1+" 第二个字符："+str2);
+			System.out.println("绗竴涓瓧绗︼細"+str1+" 绗簩涓瓧绗︼細"+str2);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
